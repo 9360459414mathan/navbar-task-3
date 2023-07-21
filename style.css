@@ -1,0 +1,110 @@
+/*================ common style start ===================*/
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	.container{
+	width:100%;
+	margin:0 auto;
+	padding:15px 0;
+	}
+	.col-1{
+	width:8.33% !important;
+	padding:15px 0;
+	}
+	.col-2{
+	width:16.66% !important;
+	padding:15px 0;
+	}
+	.col-3{
+	width:25% !important;
+	padding:15px 0;
+	}
+	.col-4{
+	width:33.33% !important;
+	padding:15px 0;
+	}
+	.col-5{
+	width:41.66% !important;
+	padding:15px 0;
+	}
+	.col-6{
+	width:50% !important;
+	padding:15px 0;
+	}
+	.col-7{
+	width:58.33% !important;
+	padding:15px 0;
+	}
+	.col-8{
+	width:66.66% !important;
+	padding:15px 0;
+	}
+	.col-9{
+	width:75% !important;
+	padding:15px 0;
+	}
+	.col-10{
+	width:83.33% !important;
+	padding:15px 0;
+	}
+	.col-11{
+	width:91.66% !important;
+	padding:15px 0;
+	}
+	.col-12{
+	width:100% !important;
+	padding:15px 0;
+	}
+ /*================ common style end ===================*/
+ /*================ Header style start =================*/
+header{
+	background-color:hsl(217, 42%, 48%);
+	padding:15px 0;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.ARSHA-content h2 a{
+	text-decoration:none;
+	font-size:30px;
+	text-align:center;
+	color:white;
+}
+.main-manu-content ul{
+	display:flex;
+	justify-content:space-evenly;
+}
+.main-manu-content ul li a{
+	text-decoration:none;
+	color:white;
+}
+.main-manu-content ul li{
+	list-style:none;
+}
+.main-manu-contentul ul li a:hover{
+	width:100%;
+}
+.main-manu-content ul li a.active{
+	color:lightblue;
+}
+.main-manu-content ul li a.active:hover{
+	width:100%;
+}
+.main-manu-content ul li a.pop{
+	padding:6px 12px;
+	border:2px solid lightblue;
+	border-radius:30px;
+}
+.main-manu-content ul li a:hover{
+	color:lightblue;
+	padding:20px 20px;
+}
